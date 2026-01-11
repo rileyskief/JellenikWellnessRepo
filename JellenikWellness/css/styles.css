@@ -10960,7 +10960,8 @@ p {
     float: right;
   }
   .intro .intro-text {
-    left: 0;
+    right: 0;
+    left: auto
     width: 60%;
     margin-top: 3rem;
     position: absolute;
