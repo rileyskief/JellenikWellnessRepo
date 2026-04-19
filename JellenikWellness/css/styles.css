@@ -10847,7 +10847,7 @@ p {
 
 .page-section {
   margin-top: 5rem;
-  margin-bottom: 5rem;
+  margin-bottom: 10rem;
 }
 
 .section-heading {
@@ -10954,16 +10954,18 @@ p {
 .intro {
   position: relative;
 }
-@media (min-width: 992px) {
+@media (min-width: 500px) {
   .intro .intro-img {
-    width: 75%;
-    float: right;
+    /* width: 75%;
+    float: right; */
+    position: relative;
+    top: 30px;
   }
   .intro .intro-text {
     right: 0;
     left: auto
     width: 60%;
-    margin-top: 3rem;
+    margin-top: 30px;
     position: absolute;
   }
   .intro .intro-text .intro-button {
