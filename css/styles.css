@@ -10963,7 +10963,7 @@ p {
   }
   .intro .intro-text {
     right: 0;
-    left: auto
+    left: auto;
     width: 60%;
     margin-top: 30px;
     position: absolute;
